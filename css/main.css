@@ -21,4 +21,255 @@ ul {
 
 body {
   margin: 0;
+}
+
+.partners {
+  background-color: #923541;
+  padding: 40px 0;
+}
+
+.our_partners {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.companies {
+  margin: 40px 0;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.companies .img {
+  height: 90px;
+}
+
+footer {
+  background-color: #2C3034;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.description {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.location {
+  margin-right: 100px;
+}
+.location svg {
+  fill: #923541;
+  width: 198px;
+  height: 116px;
+}
+.location li {
+  margin-top: 10px;
+}
+.location li a {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  color: #FFFFFF;
+}
+
+.contacts {
+  margin: 74px 50px 0 0;
+}
+.contacts p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.3px;
+  color: #923541;
+}
+.contacts ul {
+  margin-top: 33px;
+}
+.contacts ul li {
+  margin-top: 10px;
+}
+.contacts ul li a {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  color: #FFFFFF;
+}
+
+.main_footer {
+  margin: 74px 50px 0 0;
+}
+.main_footer p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.3px;
+  color: #923541;
+}
+.main_footer ul {
+  margin-top: 33px;
+}
+.main_footer ul li {
+  margin-top: 10px;
+}
+.main_footer ul li a {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  color: #FFFFFF;
+}
+
+.social-media {
+  margin: 74px 0px 0 0;
+}
+.social-media p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.3px;
+  color: #923541;
+}
+.social-media ul {
+  margin-top: 33px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.social-media ul .icon-div {
+  width: 42px;
+  height: 42px;
+  border: 1px solid #FFFFFF;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: border 0.2s ease-in-out;
+}
+.social-media ul .icon-div:hover {
+  border: 1px solid #923541;
+}
+.social-media ul .icon-div svg {
+  fill: #FFFFFF;
+  width: 14px;
+  height: 14px;
+  transition: fill 0.2s ease-in-out;
+}
+.social-media ul .icon-div:hover svg {
+  fill: #923541;
+}
+
+.right {
+  margin-top: 40px;
+}
+.right p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.3px;
+  color: #FFFFFF;
+}
+.right hr {
+  width: 768px;
+}
+
+@media screen and (max-width: 900px) {
+  .description {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 60%;
+  }
+  .location {
+    margin-right: 40px;
+  }
+  .contacts {
+    margin: 74px 35px 0 0;
+  }
+  .contacts ul {
+    margin-top: 33px;
+  }
+  .social-media {
+    margin: 74px 0 0 0;
+  }
+  .social-media ul {
+    margin-top: 33px;
+  }
+  .right hr {
+    width: 700px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .description {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 60%;
+  }
+  .location {
+    margin-right: 40px;
+  }
+  .contacts {
+    margin: 40px 35px 0 0;
+  }
+  .contacts ul {
+    margin-top: 20px;
+  }
+  .main_footer {
+    margin: 40px 50px 0 0;
+  }
+  .main_footer ul {
+    margin-top: 20px;
+  }
+  .main_footer ul li {
+    margin-top: 10px;
+  }
+  .social-media {
+    margin: 40px 0 0 0;
+  }
+  .social-media ul {
+    margin-top: 20px;
+  }
+  .right hr {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 425px) {
+  .right hr {
+    width: 280px;
+  }
 }/*# sourceMappingURL=main.css.map */
