@@ -1,0 +1,99 @@
+    .Header-nav{
+        height: 80px;
+        min-width: 1440px;
+        background-color: #923541;
+        display: flex;
+    }
+    .icon-nav{
+        margin: 11px 0 10px 138px;
+        width: 100px;
+        height: 59px;
+    }
+    .svg-nav{
+        width: 100px;
+        height: 59px;
+    }
+    .Navigetion{
+        margin: 25px 75px 25px 363px;
+    }
+    .Navigetion-link{
+        display: flex;
+    }
+    .li-Navigetion{
+        margin-right: 19px;
+    }
+    .li-Navigetion:last-child{
+        margin-right: 0;
+    }
+    .li-Navigetion a{
+        font-family: 'Quicksand';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 30px;
+        color: white;
+    }
+    .Header-portfolio{
+        min-width: 1440px;
+        height: 638px;
+        background-image: url("/image/bg-header.jpg");
+        background-size: cover ;
+        text-align: center;
+    }
+    .overlay{
+        background: rgba(0, 0, 0, 0.5);
+        min-width: 1440px;
+        height: 638px;
+    }
+    .Header-container-h1{
+        width: 643px;
+        height: 261px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: -500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .Header-h1{
+        font-family: 'Ledger';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 64px;
+        line-height: 89px;
+        color: #FFFFFF;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+    .Header-svg-arrow{
+        width: 60px;
+        margin-top: -30px;
+    }
+    .Header-p{
+        font-family: 'Ledger';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 28px;
+        color: #FFFFFF;
+    }
+    .Header-line{
+        width: 240px;
+        margin-top: 13px;
+        border-bottom: 3px solid white;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .img-ukr{
+        background-image: url("/image/image\ 9.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 224.53px;
+        height: 40px;
+        margin-left: 138px;
+        margin-top: 150px;
+    }
+
+
