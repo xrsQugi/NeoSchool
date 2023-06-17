@@ -1,0 +1,119 @@
+.why-us{
+    background-color: #923541;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+
+    .benefits{
+        width: 677px;
+        h3{
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 36px;
+            line-height: 45px;
+            color: #FFFFFF;
+        }
+
+        ul{
+            margin: 60px 0;
+
+            li{
+                margin-top: 30px;
+                font-family: 'Open Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 33px;
+                color: #FFFFFF;
+            }
+        }
+    }
+
+    img{
+        width: 677px;
+        height: 582px;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .why-us{
+        background-color: #923541;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 40px 10px;
+
+        .benefits{
+            width: 677px;
+            ul{
+                margin: 40px 0;
+
+                li{
+                    margin-top: 10px;
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 768px){
+    .why-us{
+        background-color: #923541;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 40px 10px;
+
+        img{
+            width: 450px;
+            height: 387px;
+        }
+
+        .benefits{
+            width: 450px;
+            ul{
+                margin: 40px 0;
+
+                li{
+                    margin-top: 10px;
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 475px){
+    .why-us{
+        background-color: #923541;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 40px 10px;
+
+        img{
+            width: 300px;
+            height: 258px;
+        }
+
+        .benefits{
+            width: 300px;
+            ul{
+                margin: 40px 0;
+
+                li{
+                    margin-top: 10px;
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}
