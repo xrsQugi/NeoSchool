@@ -19,8 +19,133 @@ ul {
   margin: 0;
 }
 
-body {
+html, body {
   margin: 0;
+  height: 100%;
+}
+
+.wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+main {
+  flex-grow: 1;
+}
+
+.container {
+  max-width: 75rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+header {
+  background-color: #25274D;
+  padding: 1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+header .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  gap: 30px;
+}
+header .container .logo {
+  display: flex;
+  align-items: center;
+}
+header .container .logo svg {
+  fill: #ffffff;
+  height: 50px;
+  width: 100px;
+}
+header .container .header-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+header .container .header-nav a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #ffffff;
+  transition: color 0.3s ease-in-out;
+  text-decoration: none;
+  cursor: pointer;
+  position: relative;
+}
+header .container .header-nav a:after {
+  background-color: #A9ABB8;
+  display: block;
+  content: "";
+  height: 3px;
+  width: 0%;
+  -webkit-transition: width 0.3s ease-in-out;
+  -moz--transition: width 0.3s ease-in-out;
+  transition: width 0.3s ease-in-out;
+}
+header .container .header-nav a:hover:after, header .container .header-nav a :focus:after {
+  width: 100%;
+}
+header .container .header-nav a:hover, header .container .header-nav a .active {
+  color: #A9ABB8;
+  -webkit-text-decoration: solid;
+          text-decoration: solid;
+}
+
+.hero {
+  background-image: url(/photos/bg-hero.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 10rem 0;
+  margin-top: 5rem;
+}
+.hero .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 2rem;
+  gap: 20px;
+}
+.hero .container h3 {
+  font-family: "Ledger";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 89px;
+  text-align: center;
+  color: #ffffff;
+}
+.hero .container svg {
+  fill: #ffffff;
+  height: 70px;
+}
+.hero .container p {
+  font-family: "Ledger";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ffffff;
+}
+.hero .container hr {
+  width: 100%;
+  height: 3px;
+  background-color: #ffffff;
 }
 
 .why-us {
