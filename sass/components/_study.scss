@@ -1,0 +1,67 @@
+.study{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 30px;
+
+    h3{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 56px;
+        text-align: center;
+        color: $text-primary;
+    }
+}
+
+.study-blocks{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+
+.study-block{
+    width: 200px;
+    background-color: $cards-primary;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    gap: 20px;
+    transition: .3s filter ease-in-out;
+
+    &:hover{
+        filter: drop-shadow(0px 0px 15px rgba(255, 255, 255, 0.5));
+    }
+
+    svg{
+        width: 60px;
+        height: 60px;
+        fill: $text-primary;
+    }
+
+    h4{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 23px;
+        text-align: center;
+        color: $text-primary;
+    }
+
+    p{
+        width: 146px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        color: $text-primary;
+    }
+}
