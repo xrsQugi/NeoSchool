@@ -1,15 +1,20 @@
+//!noramalize
 @import "./base/reset";
 @import "./base/colors";
 @import "./layout/wrapper";
+
+//!header
 @import "./layout/header";
+
+//!main
 @import "./components/hero";
 @import "./layout/page-bg";
 @import "./components/study";
 @import "./components/programs";
-
-
 @import "./components/why-us";
 @import "./components/vstup";
 @import "./components/map";
 @import "./components/partners";
+
+//!footer
 @import "./layout/footer";

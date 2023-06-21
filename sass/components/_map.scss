@@ -1,26 +1,22 @@
-.map-section{
-    background-color: #2C3034;
-    padding: 40px 0;
+.map{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    gap: 30px;
+    width: 100%;
 
     h3{
-        font-family: 'Open Sans';
+        font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
         font-size: 40px;
-        line-height: 50px;
-        display: flex;
-        align-items: center;
+        line-height: 47px;
         text-align: center;
-        color: #FFFFFF;
-        margin-bottom: 40px;
+        color: $text-primary;
     }
-
     iframe{
         width: 70%;
         border-radius: 20px;
     }
+
 }

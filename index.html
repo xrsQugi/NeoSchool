@@ -18,23 +18,37 @@
                     <svg><use href="./symbol-defs.svg#icon-logo"></use></svg>
                 </div>
                 <div class="header-nav">
-                    <a href="#" class="active">Головна</a>
+                    <a href="#main">Головна</a>
 					<!-- <a href="#history" class="">Історія</a> -->
-                    <a href="#study" class="">Навчання і програми</a>
-					<a href="#apply" class="">Вступ</a>
+                    <a href="#study" class="">Навчання</a>
+					<a href="#vstup" class="">Вступ</a>
 					<a href="#location" class="">Де ми</a>
 					<a href="#contacts" class="">Контакти</a>
-
+                </div>
+                <div class="menu-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="menu">
+                    <div class="menu-items">
+                        <a href="#main">Головна</a>
+                        <a href="#study" class="">Навчання</a>
+                        <a href="#vstup" class="">Вступ</a>
+                        <a href="#location" class="">Де ми</a>
+                        <a href="#contacts" class="">Контакти</a>
+                    </div>
                 </div>
             </div>
         </header>
         <main>
-            <div class="hero">
+            <div class="hero" id="main">
                 <div class="container">
                     <h3>Школа вашої мрії NeoSchool</h3>
                     <svg><use href="./symbol-defs.svg#icon-arrow"></use></svg>
                     <p>Постійне прагнення бути кращим</p>
                     <hr>
+                    <img src="./photos/MOK.png" alt="Міністерство освіти України">
                 </div>
             </div>
             <section class="page-bg">
@@ -89,89 +103,91 @@
                     <hr>
                     <div class="programs">
                         <h3>Наші навчальні програми</h3>
-                        
-                        <table>
-                            <thead>
-                                <th>
-                                    <td>Клас</td>
-                                    <td>Час навчання (рік)</td>
-                                    <td>Вартість/рік</td>
-                                </th>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Фізико-математичний</td>
-                                    <td>5 або 7</td>
-                                    <td>45000</td>
-                                </tr>
-                                <tr>
-                                    <td>Гумунітарний</td>
-                                    <td>5 або 7</td>
-                                    <td>36000</td>
-                                </tr>
-                                <tr>
-                                    <td>Хіміко-біологічний</td>
-                                    <td>5 або 7</td>
-                                    <td>40500</td>
-                                </tr>
-                                <tr>
-                                    <td>IT курси</td>
-                                    <td>1</td>
-                                    <td>24000</td>
-                                </tr>
-                            </tbody>
-                        </table>
+                        <div class="study-programs">
+                            <div class="study-program-block heading-block">
+                                <p>Клас</p>
+                                <p>Час навчання (міс.)*</p>
+                                <p>Вартість/міс.</p>
+                            </div>
+                            <div class="study-program-block"> 
+                                <p>Фізико-математичний</p>
+                                <p>45 або 63</p>
+                                <p>4500</p>
+                            </div>
+                            <div class="study-program-block">
+                                <p>Гумунітарний</p>
+                                <p>45 або 63</p>
+                                <p>4000</p>
+                            </div>
+                            <div class="study-program-block">
+                                <p>Хіміко-біологічний</p>
+                                <p>45 або 63</p>
+                                <p>4500</p>
+                            </div>
+                            <div class="study-program-block">
+                                <p>Курси Python</p>
+                                <p>6</p>
+                                <p>2000</p>
+                            </div>
+                            <div class="study-program-block">
+                                <p>Курси Front-end</p>
+                                <p>12</p>
+                                <p>2000</p>
+                            </div>
+                            <div class="study-program-block">
+                                <p>Курси Web-design</p>
+                                <p>6</p>
+                                <p>1800</p>
+                            </div>
+                            <div class="study-program-block">
+                                <p>Курси Video Editing</p>
+                                <p>8</p>
+                                <p>2100</p>
+                            </div>
+                            <div class="study-program-block">
+                                <p>Курси Game Dev</p>
+                                <p>12</p>
+                                <p>2000</p>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="vstup" id="vstup">
+                        <img src="./photos/vstup.png" alt="фото випускників">
+                        <div class="admission">
+                            <h3>Набір на 2023-2024 вже відкритий</h3>
+                            <p>Вступ до школи тепер відкритий для тих, хто хоче навчатися тут або на підготовчих курсах.</p>
+                            <button>Вступити</button>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="map" id="location">
+                        <h3>Де ми</h3>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.9354448918216!2d30.541155876896376!3d50.4423030879499!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cfaed762c0a5%3A0x4f1e8557659807e0!2z0LLRg9C70LjRhtGPINCa0L3Rj9C30ZbQsiDQntGB0YLRgNC-0LfRjNC60LjRhSwgMiwg0JrQuNGX0LIsIDAyMDAw!5e0!3m2!1sru!2sua!4v1686999479407!5m2!1sru!2sua" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <hr>
+                    <div class="partners">
+                        <h3 class="our_partners">Наші партнери</h3>
+                        <div class="companies">
+                            <a href="https://into-sana.ua/"><svg><use href="./symbol-defs.svg#icon-intosana"></use></svg></a>
+                            <a href="https://kyivstar.ua/tariffs?utm_source=google&utm_medium=cpc&utm_campaign=gsm-tariffs_reg_search-brand-single-phrase_ukraine&utm_term=kyivstar&utm_content=acid-11013267059_agid-111065018794_aaid-474673459810_ch_google_adwords|trg_kwd-1965304997|crt_474673459810|kwmt_p|ps_|srct_g|trgt_|src_|devt_c|devm_|lcl_1012861|fdi_|mrlid_5796|dop_&gclid=CjwKCAjwv8qkBhAnEiwAkY-ahuKUoh1IriCmHnbkv1_sW65nPd0DEDQBkvMtckgkLlE7ViGRIg2InRoCxdMQAvD_BwE"><svg><use href="./symbol-defs.svg#icon-kyivstar"></use></svg></a>
+                            <a href="https://careers.epam.ua/"><svg><use href="./symbol-defs.svg#icon-epam"></use></svg></a>
+                            <a href="https://career.luxoft.com/ua/"><svg><use href="./symbol-defs.svg#icon-luxoft"></use></svg></a>
+                            <a href="https://www.visa.com.ua/uk_UA"><svg><use href="./symbol-defs.svg#icon-visa"></use></svg></a>
+                            <a href="https://www.mastercard.ua/uk-ua.html"><svg><use href="./symbol-defs.svg#icon-mastercard"></use></svg></a>
+                        </div>
                     </div>
                 </div>
-            </section>
-            <!-- <div class="container">
-                <section class="why-us">
-                    <div class="benefits">
-                        <h3>Чому "NeoSchool"?</h3>
-                        <ul>
-                            <li>Інноваційний підхід: передові методи навчання.</li>
-                            <li>Розвиток навичок майбутнього: критичне мислення, творчість та навички співпраці.</li>
-                            <li>Практичний досвід: реальний досвід роботи, на основі здобутих знань.</li>
-                            <li>Індивідуалізація: індивідуальний підхід до кожного учня.</li>
-                            <li>Міжнародна спрямованість: співпраця зі школами та університетами за кордоном.</li>
-                        </ul>
-                    </div>
-                    <img src="./photos/why-us.png" alt="school photo">
-                </section>
-                <section class="vstup">
-                    <img src="./photos/vstup.png" alt="">
-                    <div class="apply">
-                        <h3>Набір на 2023-2024 вже відкритий</h3>
-                        <p>Вступ до школи тепер відкритий для тих, хто хоче навчатися тут або на підготовчих курсах.</p>
-                        <button>Вступити</button>
-                    </div>
-                </section>
-                <section class="map-section">
-                    <h3>Де ми</h3>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.9354448918216!2d30.541155876896376!3d50.4423030879499!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cfaed762c0a5%3A0x4f1e8557659807e0!2z0LLRg9C70LjRhtGPINCa0L3Rj9C30ZbQsiDQntGB0YLRgNC-0LfRjNC60LjRhSwgMiwg0JrQuNGX0LIsIDAyMDAw!5e0!3m2!1sru!2sua!4v1686999479407!5m2!1sru!2sua" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </section>
-                <section class="partners">
-                    <h3 class="our_partners">Наші партнери</h3>
-                    <div class="companies">
-                        <img src="./photos/mastercard.png" alt="mastercard">
-                        <img src="./photos/visa.png" alt="visa">
-                        <img src="./photos/privat.png" alt="privat24">
-                        <img src="./photos/kyivstar.png" alt="kyisvtar">
-                    </div>
-                </section>
-            </div> -->
-            
+            </section>  
         </main>
         <footer>
             <div class="container">
-                ФУТЕР
-            <!-- <div class="container">
                 <div class="description">
                     <div class="location">
                         <a href=""><svg><use href="./symbol-defs.svg#icon-logo"></use></svg></a>
                         <ul>
                             <li>
-                            <a href="https://goo.gl/maps/uBsKTn5ynqNn5yaw5">вулиця Князів Острозьких, 2, Київ, 02000</a>
+                                <a href="https://goo.gl/maps/uBsKTn5ynqNn5yaw5">вулиця Князів Острозьких, 2, Київ, 02000</a>
                             </li>
                             <li>
                                 <a href="mailto:info_neoSchool@gmail.com">info_neoSchool@gmail.com</a>
@@ -181,56 +197,57 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="contacts">
+                    <div class="contacts" id="contacts">
                         <p>Контакти</p>
                         <ul>
                             <li><a href="tel: +380987897813">+38 (098) 789-78-13</a></li>
                             <li><a href="tel: +380674657812">+38 (067) 465-78-12</a></li>
                         </ul>
                 </div>
-                    <div class="main_footer">
-                        <p>Головна</p>
+                    <div class="navigation">
+                        <p>Навігація</p>
                         <ul>
-                            <li><a href="">Історія</a></li>
-                            <li><a href="">Вступ</a></li>
-                            <li><a href="">Наш блог</a></li>
-                            <li><a href="">Де ми</a></li>
+                            <li><a href="#main" class="active">Головна</a></li>
+                            <li><a href="#study" class="">Навчання</a></li>
+                            <li><a href="#vstup" class="">Вступ</a></li>
+                            <li><a href="#location" class="">Де ми</a></li>
+                            <li><a href="#contacts" class="">Контакти</a></li>
                         </ul>
                     </div>
                     <div class="social-media">
                         <p>Соц. мережі</p>
                         <ul>
                             <li>
-                                <a href="#">
+                                <a href="https://www.instagram.com/xrs_qugi/">
                                     <div class="icon-div">
                                         <svg><use href="./symbol-defs.svg#icon-instagram"></use></svg>
                                     </div>
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="https://t.me/xrs_qugi">
                                     <div class="icon-div">
-                                        <svg><use href="./symbol-defs.svg#icon-facebook"></use></svg>
+                                        <svg><use href="./symbol-defs.svg#icon-telegram"></use></svg>
                                     </div>
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="https://github.com/xrsQugi">
                                     <div class="icon-div">
-                                        <svg><use href="./symbol-defs.svg#icon-twitter"></use></svg>
+                                        <svg><use href="./symbol-defs.svg#icon-github"></use></svg>
                                     </div>
                                 </a>
                             </li>
                         </ul>
                     </div>
                 </div>
+                <hr>
                 <div class="right">
-                    <hr>
                     <p>Copyright © NeoSchool. All right Reserved 2023</p>
                 </div>
-            </div> -->
             </div>
         </footer>
     </div>
+    <script src="./script.js"></script>
 </body>
 </html>

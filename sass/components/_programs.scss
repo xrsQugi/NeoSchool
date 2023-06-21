@@ -14,3 +14,33 @@
         color: #FFFFFF;
     }
 }
+
+.study-programs{
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+    // gap: 30px;
+    padding: 30px;
+    background-color: $text-accent;
+    border-radius: 20px;
+}
+
+.study-program-block{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 10px 15px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 150%;
+    text-align: center;
+    color: $bg-primary;
+}
+
+.study-program-block:nth-child(2n){
+    background-color: $cards-primary ;
+    border-radius: 10px;
+    color: $text-primary;
+}
