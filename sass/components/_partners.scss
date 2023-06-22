@@ -21,6 +21,68 @@
     gap: 30px;
 
     svg{
+        width: 300px;
         height: 80px;
+    }
+}
+
+
+@media (max-width: 769px) {
+    .partners{
+        gap: 20px;
+    
+        h3{
+            font-size: 36px;
+            line-height: 40px;
+        }
+    }
+    
+    .companies{
+        gap: 20px;
+    
+        svg{
+            width: 187.5px;
+            height: 50px;
+        }
+    }
+}
+
+@media (max-width: 464px) {
+    .partners{
+        gap: 20px;
+    
+        h3{
+            font-size: 36px;
+            line-height: 40px;
+        }
+    }
+    
+    .companies{
+        gap: 20px;
+    
+        svg{
+            width: 150px;
+            height: 40px;
+        }
+    }
+}
+
+@media (max-width: 376px) {
+    .partners{
+        gap: 25px;
+    
+        h3{
+            font-size: 28px;
+            line-height: 30px;
+        }
+    }
+    
+    .companies{
+        gap: 25px;
+    
+        svg{
+            width: 112.5px;
+            height: 30px;
+        }
     }
 }

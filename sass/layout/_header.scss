@@ -72,8 +72,7 @@ header{
 }
 
 
-@media (max-width: 767px){
-
+@media (max-width: 769px){
     .header-nav{
         display: none;
     }
@@ -95,7 +94,7 @@ header{
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        background-color: #ffffff;
+        background-color: $text-primary;
         transition: all 0.5s;
     }
 

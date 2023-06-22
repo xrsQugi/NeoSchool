@@ -64,3 +64,76 @@
         color: $text-primary;
     }
 }
+
+@media (max-width: 769px) {
+    .study{
+        gap: 20px;
+
+        h3{
+            font-size: 36px;
+            line-height: 40px;
+        }
+    }
+
+    .study-blocks{
+        gap: 30px;
+    }
+
+    .study-block{
+        width: 180px;
+        padding: 20px;
+        gap: 15px;
+
+        svg{
+            width: 50px;
+            height: 50px;
+        }
+
+        h4{
+            font-size: 18px;
+            line-height: 23px;
+        }
+
+        p{
+            font-size: 14px;
+            line-height: 19px;
+        }
+    }
+
+}
+
+@media (max-width: 376px) {
+    .study{
+        gap: 25px;
+
+        h3{
+            font-size: 28px;
+            line-height: 30px;
+        }
+    }
+
+    .study-blocks{
+        gap: 20px;
+    }
+
+    .study-block{
+        width: 160px;
+        padding: 20px;
+        gap: 10px;
+
+        svg{
+            width: 40px;
+            height: 40px;
+        }
+
+        h4{
+            font-size: 16px;
+            line-height: 23px;
+        }
+
+        p{
+            font-size: 12px;
+            line-height: 19px;
+        }
+    }
+}

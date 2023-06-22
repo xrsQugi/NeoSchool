@@ -15,8 +15,30 @@
         color: $text-primary;
     }
     iframe{
-        width: 70%;
+        width: 90%;
         border-radius: 20px;
     }
+}
 
+
+@media (max-width: 769px) {
+    .map{
+        gap: 20px;
+    
+        h3{
+            font-size: 36px;
+            line-height: 40px;
+        }
+    }
+}
+
+@media (max-width: 376px) {
+    .map{
+        gap: 25px;
+    
+        h3{
+            font-size: 28px;
+            line-height: 30px;
+        }
+    }
 }

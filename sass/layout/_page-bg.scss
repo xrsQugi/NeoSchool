@@ -19,3 +19,23 @@
         border-radius: 2px;
     }
 }
+
+@media (max-width: 769px) {
+    .page-bg{
+        padding: 20px 0;
+    
+        .container{
+            gap: 20px;
+        }
+    }
+}
+
+@media (max-width: 376px) {
+    .page-bg{
+        padding: 25px 0;
+    
+        .container{
+            gap: 25px;
+        }
+    }
+}
