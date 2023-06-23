@@ -31,11 +31,10 @@
     align-items: center;
     padding: 30px;
     gap: 20px;
-    transition: .3s filter ease-in-out;
-
-    &:hover{
-        filter: drop-shadow(0px 0px 15px rgba(255, 255, 255, 0.5));
-    }
+    transition: .3s all ease-in-out;
+    // &:hover{
+    //     filter: drop-shadow(0px 0px 15px rgba(255, 255, 255, 0.5));
+    // }
 
     svg{
         width: 60px;
@@ -65,6 +64,26 @@
     }
 }
 
+.study-block:nth-child(2){
+    transition-delay: .6s;
+}
+
+.study-block:nth-child(3){
+    transition-delay: .8s;
+}
+
+.study-block:nth-child(4){
+    transition-delay: 1s;
+}
+
+.study-block:nth-child(5){
+    transition-delay: 1.2s;
+}
+
+.study-block:nth-child(6){
+    transition-delay: 1.4s;
+}
+
 @media (max-width: 769px) {
     .study{
         gap: 20px;
@@ -83,6 +102,7 @@
         width: 180px;
         padding: 20px;
         gap: 15px;
+        
 
         svg{
             width: 50px;
@@ -119,7 +139,8 @@
     .study-block{
         width: 160px;
         padding: 20px;
-        gap: 10px;
+        gap: 20px;
+        flex: 1 1 auto
 
         svg{
             width: 40px;

@@ -322,6 +322,17 @@ header .container .logo svg {
     gap: 25px;
   }
 }
+.hidden {
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: all 2s;
+}
+
+.show {
+  opacity: 1;
+  transform: translateX(0);
+}
+
 .study {
   display: flex;
   flex-direction: column;
@@ -354,10 +365,7 @@ header .container .logo svg {
   align-items: center;
   padding: 30px;
   gap: 20px;
-  transition: 0.3s filter ease-in-out;
-}
-.study-block:hover {
-  filter: drop-shadow(0px 0px 15px rgba(255, 255, 255, 0.5));
+  transition: 0.3s all ease-in-out;
 }
 .study-block svg {
   width: 60px;
@@ -382,6 +390,26 @@ header .container .logo svg {
   line-height: 19px;
   text-align: center;
   color: #ffffff;
+}
+
+.study-block:nth-child(2) {
+  transition-delay: 0.6s;
+}
+
+.study-block:nth-child(3) {
+  transition-delay: 0.8s;
+}
+
+.study-block:nth-child(4) {
+  transition-delay: 1s;
+}
+
+.study-block:nth-child(5) {
+  transition-delay: 1.2s;
+}
+
+.study-block:nth-child(6) {
+  transition-delay: 1.4s;
 }
 
 @media (max-width: 769px) {
@@ -427,11 +455,10 @@ header .container .logo svg {
   .study-block {
     width: 160px;
     padding: 20px;
-    gap: 10px;
-  }
-  .study-block svg {
-    width: 40px;
-    height: 40px;
+    gap: 20px;
+    flex: 1 1 auto svg;
+    flex-width: 40px;
+    flex-height: 40px;
   }
   .study-block h4 {
     font-size: 16px;
