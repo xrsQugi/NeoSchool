@@ -1,2 +1,1 @@
-# GameOFTeens_HTML-CSS
-NeoSchool💡
+# NeoSchool💡
